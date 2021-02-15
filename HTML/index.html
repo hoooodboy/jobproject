@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+
+    <title>jobsproject</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../dist/fullpage.css" />
+    <link rel="stylesheet" type="text/css"  href="../CSS/index.css">
+
+</head>
+<body>
+
+  
+    <div id="fullpage">
+        <div class="first section active" id="section0">
+            <div class="first-wrapper">
+                <a href="#section1">
+                    사람을 찾으시나요?
+                </a>
+                <a href="#section2">
+                    프로젝트를 찾으시나요?
+                </a>
+            </div>
+            <div class="firstUse">
+                <div class="firstUse-animation">
+                    혹시 처음 이용하시나요?
+                </div>
+            </div>
+        </div>
+        <div class="finding-page section active" id="section1">
+            <div class="header">
+                사람을 찾으시나요?
+            </div>
+            <div class="contentHeader">
+                어떤 종류의 사람인가요?
+            </div>
+            <ul class="content">
+                <li>꾸준히 일할 사람</li>
+                <li>잠깐 일할 사람</li>
+                <li>한번만 일할 사람</li>
+            </ul>
+            <div class="up"></div>
+        </div>
+        <div class="finding-page section active" id="section2">
+            <div class="header">
+                프로젝트를 찾으시나요?
+            </div>
+            <div class="contentHeader">
+                어떤 종류의 프로젝트인가요?
+            </div>
+            <ul class="content">
+                <li>장기프로젝트</li>
+                <li>단기프로젝트</li>
+                <li>한번만 일하는 프로젝트</li>
+            </ul>
+            <div class="up"></div>
+
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../dist/fullpage.js"></script>
+    <script type="text/javascript">
+        var myFullpage = new fullpage('#fullpage', {
+            lazyLoad: true
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+    color: #323239;
+}
+
+a {
+    color: #323239;
+    text-decoration: none;
+}
+
+.first {
+    max-width: 75vw;
+    height: 60vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 60px;
+    height: 20vh;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 60px;
+    height: 13vh;
+}
+
+.up{
+    padding: 8vmax;
+}
+
+.firstUse{
+    font-size: 30px;
+    font-weight: 300;
+    height: 25vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.firstUse-animation{
+    animation-delay: 3s;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.finding-people {
+    max-width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contentHeader{
+    margin: 0 5vw;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.content{
+    margin: 0 9vw;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 30px;
+
+}
+.content li{
+    margin-top: 10px;
+}
+
+.finding-page {
+    max-width: 75vw;
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 3;
+        transform: none;
+    }
+}
